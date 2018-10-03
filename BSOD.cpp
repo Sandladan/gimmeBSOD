@@ -10,6 +10,7 @@ EXTERN_C NTSTATUS NTAPI NtRaiseHardError(NTSTATUS ErrorStatus, ULONG NumberOfPar
 int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPreInst, LPSTR lpsz, int ncmdShow)
 {
 	int MsgBoxReturn = MessageBox(0, "Start Aimbot?", "CSGO hacks", MB_YESNO | MB_HELP | MB_ICONEXCLAMATION);
+	
 	if (MsgBoxReturn == IDYES)
 	{
 		BOOLEAN bl;
